@@ -6,23 +6,15 @@ async function run() {
     const metadata = {
         path: '/',
         content: JSON.stringify({
-            name: "My First NFT",
+            name: "Crimean NFT",
             attributes: [
             {
-                "trait_type": "Peace",
-                "value": "10" 
-            },
-            {
-                "trait_type": "Love",
-                "value": "100"
-            },
-            {
-                "trait_type": "Web3",
-                "value": "1000"
+                "country": "Ukraine",
+                "motto": "Crimea Is Ukraine"
             }
             ],
             // update the IPFS CID to be your image CID
-            image: "https://ipfs.io/ipfs/QmQ2wnwaFJ1w42UTywTWpM8RgiqrWwKFR6AMrpyiHPgi3p",
+            image: "https://ipfs.io/ipfs/QmVmTbnF4PJ3otaT7Pjqsbkt7XVeYkGuLmGTUkfSSPdsdf",
             description: "So much PLW3!"
         })
     };
